@@ -10,4 +10,6 @@ git clone https://github.com/MR-SUN-SII/Termux-Design
 
 cd Termux-Design
 
+chomd Bash-design.py
+
 python2 Bash-design.py
