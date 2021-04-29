@@ -17,7 +17,7 @@ output = '/data/data/com.termux/files/usr/etc/'
 print('')
 name = raw_input('Input your Banner Name : ')
 print('')
-name2 = raw_input('Input your Nick-Name : ')
+names = raw_input('Input your Nick-Name : ')
 
 wlc = '''
 import os,sys,time,random
@@ -74,7 +74,7 @@ h2 = open(output+'bash.bashrc', 'w')
 h2.write(bashrc1)
 h2.write("\nfiglet    '    "+name+"' |lolcat\n")
 h2.write(bashrc2)
-h2.write('\[\e[34m\]└─>\[\e[35m\]'+name2+'\[\e[34m\][~]:$\[\e[1;32m\] "\n')
+h2.write('\[\e[34m\]└─>\[\e[35m\]'+names+'\[\e[34m\][~]:$\[\e[1;32m\] "\n')
 h2.write('echo -e "\e[6 q"')
 h2.close()
 print('DONE')
