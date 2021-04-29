@@ -8,6 +8,6 @@ pkg in git python2 -y
 
 git clone https://github.com/MR-SUN-SII/Termux-Design
 
-cd design
+cd Termux-Design
 
-python2 design.py
+python2 Bash-design.py
